@@ -1,101 +1,81 @@
-import Image from "next/image";
+import { FaPhoneAlt } from "react-icons/fa"; // Import the phone icon
+import banner from "@/images/banner.jpeg";
+import CardComponent from "@/components/card";
+import { CardContainer } from "@/components/models";
+import TopProfiles from "@/components/topProfiles";
+import RateCard, { Pricing } from "@/components/RateCard";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <div className="min-h-screen flex items-center justify-center p-8 sm:p-20">
+        <div
+          className="relative w-full h-[500px] bg-cover bg-center bg-no-repeat text-center flex flex-col justify-center items-center"
+          style={{ backgroundImage: `url(${banner.src})` }}
+        >
+          <div className="absolute inset-0 bg-black/50"></div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          <h1 className="relative text-white text-4xl sm:text-6xl font-bold z-10">
+            Some dummy text
+            {/* We Offer Only Verified Escorts */}
+          </h1>
+          <p className="relative text-white text-lg sm:text-2xl mt-4 z-10">
+            Some dummy paragraph
+            {/* Delhi Girls, Hot Women, Horny Russian, Models Waiting for You! */}
+          </p>
+
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="tel:+911234567890"
+            className="relative flex items-center mt-6 text-lg sm:text-xl text-white hover:text-blue-500 z-10"
           >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+            <FaPhoneAlt className="mr-2" />
+            Call Now : 24 X 7
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      <div class="w-screen	 mx-auto lg:p-[10rem] md:p-[5rem] p-8  bg-[#05051f] text-white min-h-screen">
+        <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">
+          Delhi Escorts Service Agency – A Complete Introduction
+        </h1>
+
+        <h2 class="text-xl md:text-2xl font-semibold text-center mb-6">
+          Delightful and Erotic Sex with Sexy Independent Delhi Escorts.
+        </h2>
+
+        <div class="space-y-6 text-lg leading-relaxed">
+          <p>
+            Hey, Handsome Hunks! It's time for you to enjoy our exclusive escort
+            service in Delhi. We welcome you to our agency where you will find
+            high-class girls. We bring the most popular escorts in the city. All
+            the escorts are alluring and high-class, ensuring sensual
+            entertainment in your life.
+          </p>
+
+          <p>
+            However, to have a perfect experience, we need the right girl.
+            Finding a Punjabi escort is not easy. Many gentlemen face issues
+            while searching. If you are struggling, then hire our service now!
+          </p>
+
+          <p>
+            At our agency, we provide high-profile escorts. Our escorts will
+            fulfill all your needs, leaving no room for disappointment. You can
+            rely on us for any occasion.
+          </p>
+
+          <p>
+            We are excited to introduce you to our agency. Lots of options await
+            you, and we guarantee satisfaction.
+          </p>
+        </div>
+      </div>
+
+      <CardComponent/>
+      <CardContainer />
+      <TopProfiles />
+      {/* <RateCard/> */}
+      <Pricing />
+    </>
   );
 }
