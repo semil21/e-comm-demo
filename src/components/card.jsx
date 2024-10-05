@@ -56,7 +56,7 @@ const CardComponent = () => {
               <p class="text-gray-700">
                 We are happy to inform you that Honey Tyagi Delhi Escorts is
                 providing you with Premium Escorts at a significant discount of
-                25%. Isn't it fabulous news for you guys? So why don't you make
+                25%. `Isn't` it fabulous news for you guys? So why don't you make
                 haste to book the Celebrity, Fashion Model, Punjabi Model, and
                 TV Actress Escorts at reasonable rates? These top-class hookers
                 will be your luxury sex pleasure in your budget.

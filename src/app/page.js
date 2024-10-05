@@ -45,7 +45,7 @@ export default function Home() {
 
         <div class="space-y-6 text-lg leading-relaxed">
           <p>
-            Hey, Handsome Hunks! It's time for you to enjoy our exclusive escort
+            Hey, Handsome Hunks! It is time for you to enjoy our exclusive escort
             service in Delhi. We welcome you to our agency where you will find
             high-class girls. We bring the most popular escorts in the city. All
             the escorts are alluring and high-class, ensuring sensual
