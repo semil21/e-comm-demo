@@ -8,9 +8,9 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center p-8 sm:p-20">
+      <div className="min-h-screen flex items-center justify-center p-0 sm:p-0">
         <div
-          className="relative w-full h-[500px] bg-cover bg-center bg-no-repeat text-center flex flex-col justify-center items-center"
+          className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat text-center flex flex-col justify-center items-center "
           style={{
             backgroundImage: `url(https://imgs.search.brave.com/kdoTmXHaysBKs-f-B2QcNpAL56ThJ61umVQcuC9m40c/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9zdXBlcm1vZGVs/LXdpdGgtZ29yZ2Vv/dXMtZmlndXJlLXBv/c2VzLWJlYWNoLWJl/YXV0aWZ1bC13ZWF0/aGVyXzI1MzM0Mi0z/NjI0LmpwZz9zaXpl/PTYyNiZleHQ9anBn)`,
           }}
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="w-screen	 mx-auto lg:p-[10rem] md:p-[5rem] p-8  bg-[#D20A2E] text-white min-h-screen">
+      <div class="w-screen	 mx-auto lg:p-[10rem] lg:pt-[3rem] md:p-[5rem] p-8  bg-[#D20A2E] text-white min-h-screen">
         <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">
           Delhi Escorts Service Agency – A Complete Introduction
         </h1>
@@ -89,6 +89,9 @@ export default function Home() {
       <TopProfiles />
       {/* <RateCard/> */}
       <Pricing />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
