@@ -2,8 +2,8 @@ import React from 'react';
 import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
-  const phoneNumber = '+917070801847';
-  const whatsappNumber = '+917070801847';
+  const phoneNumber = '+919122220479';
+  const whatsappNumber = '+919122220479';
 
   return (
     <>

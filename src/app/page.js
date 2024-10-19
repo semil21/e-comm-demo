@@ -4,6 +4,7 @@ import { CardContainer } from "@/components/models";
 import TopProfiles from "@/components/topProfiles";
 import RateCard, { Pricing } from "@/components/RateCard";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import Info from "@/components/info";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
           </p>
 
           <a
-            href="tel:+917070801847"
+            href="tel:+919122220479"
             className="relative flex items-center mt-6 text-lg sm:text-xl text-white hover:text-blue-500 z-10"
           >
             Call Now : 24 X 7
@@ -33,7 +34,7 @@ export default function Home() {
 
           {/* WhatsApp Button */}
           <a
-            href="https://wa.me/917070801847?text=Hello%21%20I%20want%20to%20enquire%20about%20service"
+            href="https://wa.me/919122220479?text=Hello%21%20I%20want%20to%20enquire%20about%20service"
             target="_blank"
             rel="noopener noreferrer"
             className="relative flex items-center mt-4 text-lg sm:text-xl bg-[#25D366] text-white hover:bg-[#1EBE56] py-2 px-4 rounded-full z-10"
@@ -44,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="w-screen	 mx-auto lg:p-[10rem] lg:pt-[3rem] md:p-[5rem] p-8  bg-[#D20A2E] text-white min-h-screen">
+      <div class="w-screen	 mx-auto lg:p-[7rem]  md:p-[5rem] p-8  bg-[#341151] text-white min-h-screen">
         <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">
           Delhi Escorts Service Agency – A Complete Introduction
         </h1>
@@ -78,8 +79,17 @@ export default function Home() {
             We are excited to introduce you to our agency. Lots of options await
             you, and we guarantee satisfaction.
           </p>
+
+           <p>
+            You can easily communicate with these highly talented, gorgeous, refined, and sexy escorts. Our Escorts Delhi has been selected handpicked by our respected agency as they are skilled at providing sensual, romantic, and unique services. Our high profile Delhi escorts service is dominating the niche of the escort industry and they have great field experience. 
+          </p>
+           <p>
+            You can also book our Delhi escorts agency online. Just give us a call or send an email regarding your booking request so that we can get back to you as soon as possible regarding your bookings. 
+          </p>
         </div>
       </div>
+
+      
 
       <CardComponent />
       <h1 class="text-3xl md:text-4xl font-bold mb-2 text-center mt-5">
@@ -88,6 +98,7 @@ export default function Home() {
       <CardContainer />
       <TopProfiles />
       {/* <RateCard/> */}
+      <Info/>
       <Pricing />
       <br />
       <br />
